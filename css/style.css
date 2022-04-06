@@ -389,6 +389,7 @@ footer {
 /* footer-right-block styles  */
 .ftr-right-block {
     margin-left: 106px;
+    width: 198px;
 }
 
 .contact-info {
