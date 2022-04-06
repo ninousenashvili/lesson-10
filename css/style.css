@@ -315,6 +315,7 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 54px;
 
 }
 
@@ -428,13 +429,14 @@ footer {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+
 }
 
 .web {
     color: #3B5998;
     font-size: 14px;
     margin-right: 139px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 
 }
 
@@ -442,7 +444,7 @@ footer {
     color: #B1B1B1;
     font-size: 14px;
     margin-left: 139px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 span {
