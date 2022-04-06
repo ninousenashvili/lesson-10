@@ -397,7 +397,7 @@ footer {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .contact-word {
