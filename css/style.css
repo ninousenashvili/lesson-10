@@ -158,7 +158,8 @@ a {
     font-size: 42px;
     color: #000000;
     font-weight: bolder;
-    width: 378px;
+    max-width: 378px;
+    width: 100%;
     margin-bottom: 50px;
 }
 
@@ -169,7 +170,6 @@ a {
 
 #message {
     width: 720px;
-
     height: 288px;
     background-color: #F8F8F8;
     border: 2px solid #E8E8E8;
@@ -201,21 +201,6 @@ a {
 }
 
 
-/* .icon {
-    width: 352px;
-    height: 60px;
-    background-color: #5863F8;
-    border: 1px solid #EBEBEB;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-} */
-
-/* .send {
-    font-size: 14px;
-    color: white;
-} */
 .btn {
     max-width: 352px;
     width: 100%;
@@ -340,9 +325,10 @@ footer {
 }
 
 .ftr-p {
-    color: white;
+    color: #B1B1B1;
     width: 260px;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: lighter;
     margin-bottom: 20px;
 
 }
