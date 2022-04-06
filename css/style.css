@@ -1,0 +1,405 @@
+/* header styles */
+
+.header-image {
+    background-image: url(../IMAGE/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png);
+    max-width: 100%;
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: black;
+    opacity: 60%;
+}
+
+.header-block {
+    position: relative;
+}
+
+/* navigation styles */
+.header {
+    position: absolute;
+    top: 30px;
+    left: 139px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bolder;
+
+}
+
+.active {
+    color: #5863F8;
+}
+
+
+li:nth-child(1) {
+    margin-right: 49px;
+}
+
+li:nth-child(2) {
+    margin-right: 60px;
+}
+
+li:nth-child(3) {
+    margin-right: 47px;
+}
+
+li:nth-child(4) {
+    margin-right: 49px;
+}
+
+li:nth-child(5) {
+    margin-right: 49px;
+}
+
+.fa-solid {
+    color: white;
+    margin-left: 5.5px;
+}
+
+a {
+    color: white
+}
+
+
+.header-title {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 439px;
+}
+
+.contact {
+    position: absolute;
+    top: 146px;
+    left: 139px;
+    color: white;
+    font-size: 42px;
+
+
+}
+
+.contact1 {
+    position: absolute;
+    top: 219px;
+    left: 139px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    gap: 31px;
+
+}
+
+.vertical {
+    height: 19px;
+    display: inline-block;
+    border-left: 1px solid white;
+    margin-left: 14.5px;
+    margin-right: 16.5px
+}
+
+/* top-section styles*/
+.top-section {
+    margin: 0 auto;
+    max-width: 1088px;
+    width: 100%;
+    margin-bottom: 90px;
+
+}
+
+.map {
+    margin-top: 50px;
+    margin-bottom: 56px;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #5863F8;
+}
+
+.section-title1 {
+    font-size: 42px;
+    color: #000000;
+    font-weight: bolder;
+    width: 378px;
+    margin-bottom: 50px;
+}
+
+/* input styles */
+.input-block {
+    margin-bottom: 50px;
+}
+
+#message {
+    width: 720px;
+
+    height: 288px;
+    background-color: #F8F8F8;
+    border: 2px solid #E8E8E8;
+    padding: 20px;
+
+
+}
+
+.input-block {
+    display: flex;
+    gap: 16px;
+}
+
+.input {
+    width: 352px;
+    height: 60px;
+    margin-bottom: 16px;
+    padding: 20px;
+    font-size: 13px;
+    background-color: #F8F8F8;
+    border: 2px solid #E8E8E8;
+
+}
+
+.input:hover {
+    border: 2px solid #5863F8;
+}
+
+
+/* .icon {
+    width: 352px;
+    height: 60px;
+    background-color: #5863F8;
+    border: 1px solid #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+/* .send {
+    font-size: 14px;
+    color: white;
+} */
+.btn {
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+    background-color: #5863F8;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #55ACEE;
+}
+
+/* icon styles */
+.contact-icon {
+    display: flex;
+    max-width: 1088px;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.top-contact-icon {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.blue-icon {
+    background-color: #5863F8;
+    width: 59px;
+    height: 58px;
+    border-radius: 180px;
+    padding: 20px;
+
+}
+
+.contact-title {
+    font-size: 18px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-text {
+    color: #B1B1B1;
+    font-size: 14px;
+    max-width: 362px;
+}
+
+/* bottom-section styles */
+.bottom1 {
+    width: 565px;
+    margin-left: 139px;
+
+}
+
+.bottom {
+    margin-left: 139px;
+}
+
+.image-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+img:hover {
+    opacity: 60%;
+
+}
+
+/* footer styles */
+
+footer {
+
+    max-width: 1366px;
+    width: 100%;
+    background-color: black;
+    height: 395px;
+
+}
+
+.footer-block {
+    /* max-width: 1366px;
+    width: 100%;
+    background-color: black;
+    height: 395px; */
+    padding: 90px 201px 40px 139px;
+    display: flex;
+
+}
+
+/* footer-left block styles */
+.ftr-left-title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ftr-p {
+    color: white;
+    width: 260px;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.fa-facebook {
+    font-size: 35px;
+    fill: currentColor;
+    color: #3B5998;
+}
+
+.fa-twitter {
+    font-size: 35px;
+    color: #55ACEE;
+}
+
+.ftr-left-block {
+    width: 260px;
+    margin-right: 200px;
+}
+
+/* footer-middle-block and footer-middle-block1  styles  */
+
+.ftr-middle-block {
+    width: 103px;
+    margin-right: 81px;
+}
+
+
+
+.ftr-title {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.useful-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 103px;
+}
+
+.link-word {
+    font-size: 14px;
+    color: #5863F8;
+}
+
+.fa-regular {
+    color: #3B5998;
+}
+
+/* footer-right-block styles  */
+.ftr-right-block {
+    margin-left: 106px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-word {
+    color: white;
+    font-size: 14px;
+}
+
+.contact-icons {
+    display: flex;
+    gap: 14px;
+}
+
+
+.ftr-right-block {
+    width: 198px;
+
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.web {
+    color: #3B5998;
+    font-size: 14px;
+    margin-right: 139px;
+    margin-bottom: 40px;
+
+}
+
+.copyright-p {
+    color: white;
+    font-size: 14px;
+    margin-left: 139px;
+    margin-bottom: 40px;
+}
+
+span {
+    color: #3B5998;
+}
