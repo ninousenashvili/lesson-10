@@ -14,7 +14,8 @@ body {
 
 .header-image {
     background-image: url(../IMAGE/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png);
-    max-width: 100%;
+    max-width: 1366px;
+    width: 100%;
     height: 324px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,6 +283,8 @@ a {
 .image-block {
     display: -webkit-box;
     display: -ms-flexbox;
+    max-width: 1366px;
+    width: 100%;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -296,8 +299,8 @@ img:hover {
 /* footer styles */
 
 footer {
-
-    max-width: 100%;
+    max-width: 1366px;
+    width: 100%;
     background-color: black;
     height: 395px;
 
