@@ -449,3 +449,37 @@ footer {
 span {
     color: #3B5998;
 }
+
+/* footer facebook twitter styles */
+.icons {
+    display: flex;
+    gap: 10.4px;
+}
+
+.social-icons {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fa-brands {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.facebook {
+    background-color: hsl(221, 44%, 41%);
+}
+
+.twitter {
+    background-color: #55ACEE
+}
+
+.google {
+    background-color: #DC4E41;
+}
